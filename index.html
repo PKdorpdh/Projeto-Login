@@ -19,10 +19,14 @@
                 <form action="login.php" method="post" autocomplete="on">
                     <p>
                         <label for="ilogin">Login:</label>
-                        <input type="text" name="login" id="ilogin">
+                        <input type="text" name="login" id="ilogin" min="4">
                     </p>
-                    <label for="isenha">Senha:</label>
-                    <input type="password" name="senha" id="isenha">
+                    <p>
+                        <label for="isenha">Senha:</label>
+                        <input type="password" name="senha" id="isenha" min="8">
+                    </p>
+                    <input type="submit" value="Enviar">
+                    
                 </form>
             </div>
         </section>

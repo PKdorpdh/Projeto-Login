@@ -16,3 +16,28 @@ Azul frio:
 body, html {
     background-color: rgb(223, 215, 189);
 }
+
+section#menu {
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.644);
+    width: 600px;
+    margin: auto;
+}
+h1 {
+    text-align: center;
+    margin: 10px;
+}
+
+div>p {
+    text-align: justify;
+    margin: 7px;
+    text-indent: 15px;
+    padding-bottom: 10px;
+}
+
+form>p {
+    margin-bottom: 15px;
+    text-align: center;
+    padding-bottom: 10px;
+}
